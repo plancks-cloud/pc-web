@@ -8297,6 +8297,10 @@ a.bg-dark:focus, a.bg-dark:hover {
   color: #926829 !important;
 }
 
+.text-silver {
+  color: #c0c0c0 !important;
+}
+
 .text-mutewhite {
   color: #c3c3c3 !important;
 }

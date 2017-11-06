@@ -26,6 +26,6 @@
       // If the count down is finished, write some text 
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdowntimer").innerHTML = "The ICO Has Begun!";
+        document.getElementById("countdowntimer").innerHTML = "0:0:0:0";
       }
     }, 1000);
