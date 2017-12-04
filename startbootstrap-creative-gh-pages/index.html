@@ -12,8 +12,7 @@
 
     gtag('config', 'UA-109287724-1');
   </script>
-
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -21,6 +20,37 @@
   <link rel="shortcut icon" type="favicon.ico" href="favicon.ico" />
 
   <title>Planck's Cloud</title>
+
+<!-- Animated Icons
+
+  <script src="img/snap/snap.svg-min.js"></script>
+  <script>
+//Run script right away
+      window.onload = function () {
+//We'll be appending the icon to this DIV later
+              var s = Snap("#iconDiv");
+//Have Snap load the SVG file
+        Snap.load("img/snap/icon1.svg", function(f) {
+//Assign the white rectangle
+                    whiteRect = f.select("#coin1");
+//Assign the whole icon group
+                    icon = f.select("#icon");
+//When the icon is hovered over, have the white rectangle move up slightly with elastic properties
+                    icon.hover(function() {
+            whiteRect.animate({y:960}, 500, mina.elastic);
+                    },
+//And return to original position when not hovered over
+                               function() {
+            whiteRect.animate({y:977.36218}, 500, mina.elastic);
+          }
+                    );
+//Finally append the icon to iconDiv in the body
+        s.append(f);
+        });        
+      };
+    </script>
+
+  -->
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -40,13 +70,15 @@
 
 </head>
 
-<body id="page-top" style="background-color: black;">
+<body id="page-top" style="background-color: white;">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-black" id="mainNav">
+
+
+  <!-- Navigation --><!--
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
 
-      <a href="./index.html" class="navbar-left">
+      <a href="#page-top" class="navbar-left js-scroll-trigger">
         <img src="img/favicon.ico">
       </a>
 
@@ -58,47 +90,51 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#overviewx">overview</a>
+            <a class="nav-link js-scroll-trigger" href="#visionx">Vision</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#problemx">Problem</a>
+            <a class="nav-link js-scroll-trigger" href="#storyx">Story</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#solutionx">Solution</a>
+            <a class="nav-link js-scroll-trigger" href="#disruptionx">Disruption</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#roadmapx">Roadmap</a>
+            <a class="nav-link js-scroll-trigger" href="#techx">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#betax">Early Adoption</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#timelinesx">Timelines</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#icox">ICO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Community</a>
+            <a class="nav-link js-scroll-trigger" href="#contactx">Find us!</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>-->
 
   <header class="masthead">
     <div class="header-content">
       <div class="header-content-inner">
-        <div class="col-lg-2 mx-auto text-center">
-          <img class="img-fluid" src="img/logo.png" alt="logo">
-        </div>
 
+        <div class="col-lg-3 mx-auto text-center">
+          <img class ="img-fluid" src="img/logo2.png" alt="logo" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(1px 1px 1px #222);" >
+          <!-- Image (Logo) Has dropshadows -->
+        </div> 
 
-        <h1 id="homeHeading" class="text-goldbrt">
-          <font size="6">Planck's Cloud </font>
-        </h1>
-        <p class="text-white">
-          <font size="3">The Cloud of all clouds!</font>
-        </p>
+        <h2 id="homeHeading" class="text-black" style="-webkit-text-stroke: 1.0px #38738b;
+-webkit-text-fill-color: #FFFFFF">
+          <font size="7"><b>Planck's Cloud</b> </font>
+        </h2>
 
-        <hr>
+        <!-- slogan
+        <p class="text-black">
+          <font size="4"><b><br>One Cloud to lead them all,<br> One Cloud to provide for them,<br>
+One Cloud to bring them all and in compute bind them</b></font>
+        </p> -->
+
         <!-- <h2 class="text-gold">
           <font size="5" > The Whitepaper will be available in </font>
         </h2>
@@ -110,31 +146,38 @@
   </header>
 
 
-  <section class="bg-black" id="overviewx">
+
+  <section class="bg-white" id="visionx">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <div class="col-lg-5 mx-auto">
-            <img class="img-fluid" src="img/logo.png" alt="">
+          <!-- Logo
+          <div class="col-lg-4 mx-auto">
+            <img class="img-fluid" src="img/logo.svg" alt="">
           </div>
-          <h2 class="section-heading text-white">The Overview</h2>
+        -->
+          <h4 class="section-heading text-black"><br>Planck's Cloud Vision: Cloud The Compute</h4>
           <hr class="light">
 
 
 
-          <p class="text-silver">
-            <font size="4">
-              Planck’s Cloud is a blockchain cloud powered, supercomputer network. Planck's Cloud, a network that will provide and exchange computing power for everyone and anyone who needs it.
+          <p class="text-greyreadable">
+            <font size="3">
+              The Planck's Cloud vision is to be the computing infrastructure of tomorrow, we at Planck's Cloud foresee that the needs for compute will only rise in the future and we believe that a decentralised infrastructure of compute run by a decentralised network that meets the needs of a decentralised market is the best way forward in providing for future generations of technology and people.
               <br>
-              <br> Anyone with a device can earn the Planck’s Token (PLK) by supplying their device components to the decentralized network,
-              and likewise, anyone can also spend Planck’s to use their applications on the devices supplied in the decentralized
-              network. Anyone can ‘Rent’ anyone else’s computing power.
+              <br> 
+              Therefore Planck’s Cloud is a blockchain and cloud powered, supercomputer network. Planck's Cloud is a network that will provide and exchange computing power for everyone and anyone who needs it.
               <br>
-              <br> Planck’s Cloud won’t be limited to only computer’s and laptops, any device that has an available
-              internet connection like a fridge, washing machine, cellphone or even a datacentre will be able to be a supplier’s
-              on the network.
+              <br>
+              Anyone with a device can earn the Planck’s Token (PLK) by supplying their device components to the decentralized network, and likewise, anyone can also spend Planck’s to use their applications on the devices supplied in the decentralized
+              network. Anyone can effectively ‘Rent’ anyone else’s computing power.
+              <br>
+              <br> 
+              Planck’s Cloud won’t be limited to only computer’s and laptops, any device that has an available internet connection like a fridge, washing machine, cellphone or even a datacentre will be able to be a supplier’s on the network.
+              <br> 
 
           </p>
+          <!-- Insert Video, & Whitepaper here>
           <!--
             <a class="btn btn-default btn-xl js-scroll-trigger" href="insert link">Whitepaper</a> -->
         </div>
@@ -142,211 +185,158 @@
     </div>
   </section>
 
-
-  <section class="bg-primary" id="problemx">
-    <div class="container">
-      <h2 class="section-heading text-gold text-center">The Problem</h2>
-      <hr class="light">
-      <br>
-      <div class="row">
-        <div class="col-lg-6 mr-auto text-center">
-
-          <p class="text-white">
-            <font size="4">Computation Wastage
-            </font>
-          </p>
-          <p class="text-goldbrt">
-            <font size="2">In today’s world of technology, processing power is poorly distributed across the world. Even though technology
-              is, in some places, affordable and cheap; the world still is experiencing a prevalent problem of computational
-              wastage. The supply of compute is not matched with the need for it. For example, our conventional computers
-              have more power than they need, and will continue to run without utilizing 100% of its potential.
-              <br>
-              <br> The demand for compute power has not waned - it has grown alongside the supply of power. The current avenues
-              and outlets where you can acquire more compute power is to either purchase better and/or more computing equipment
-              for yourself, or renting this power through a service provider.
-              <br>
-              <br> Neither of these options promote effective and efficient use of processing power. It only encourages spending
-              resources on the problem, with the chance that the need for this sort of power may be infrequent and/or temporary.
-              Planck's Cloud sees this as a problem that will continue to worsen as technology advances.
-              <br>
-              <br>
-            </font>
-          </p>
+    <section id="services" class="bg-darkblue" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+           <h2 class="section-heading text-white">A Cloud in all of us<br><br></h2> 
+            <!-- Video Here -->
+            <iframe width="90%" height="520"
+              src="https://www.youtube.com/embed/ae_DKNwK_ms">
+            </iframe>
+          </div>
         </div>
-        <div class="col-sm-5 my-auto">
-          <img class="img-fluid" src="img/wastage.png" alt="">
+      </div>  
+    </section>
+
+  <section class="bg-white" id="storyx">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 class="section-heading"><b>Decentralise the world! Let your idle devices work for you!</b><br><br></h3>
+          </div>
+        </div>
+      </div>  
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-center">
+            <div class="service-box">
+
+            <!--  <div id="iconDiv"></div>   Animated Icons-->
+              <img src="img/snap/icon1.svg" class="img-fluid""> 
+
+              <h5><br><b>Earn PLK for renting out computation</b></h5>
+              <p class="text-muted"><br>Let your spare and unused devices work for you by signing them up as Planck Workers. Use the Planck's Cloud worker software to get paid for renting out computing power to the Planck's Cloud network.</p>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <div class="service-box">
+              <img src="img/snap/icon2.svg" class="img-fluid""> 
+              <h5><br><b>Exchange PLK for USD, BTC, ETH & More</b></h5>
+              <p class="text-muted"><br>PLK will be tradeable on a number of exchanges and supported by multiple cryptocurrency wallets, allowing you to easily exchange PLK for other currencies like USD, Btc and Eth.</p>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <div class="service-box">
+              <img src="img/snap/icon3.svg" class="img-fluid""> 
+              <h5><br><b>Reliably 'Rent" compute at hyper competitive prices</b></h5>
+              <p class="text-muted"><br>Planck's Cloud Clients can tune their application usage strategies to suit their needs, creating a custom balance between computate intensity, reliability, and cost. The Planck's Cloud networks makes it possible for suppliers and clients to tailor their compute for each other's needs.</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-5 my-auto">
-          <img class="img-fluid" src="img/pricey.png" alt="">
-        </div>
-        <div class="col-lg-6 ml-auto text-center">
-          <p class="text-white">
-            <font size="4">Pricey Cloud Services
-            </font>
-          </p>
-          <p class="text-goldbrt">
-            <font size="2">The current online cloud industry is growing rapidly, and solutions are constantly on the rise. However despite
-              the growth of cloud, and how technology is becoming increasingly cheaper and more affordable, current services
-              on the cloud and through the cloud are not reflecting these technological changes. Cloud services are still
-              relatively expensive, and not yet casually affordable to everyone. Certain services such as hosting have become
-              cheaper in the last few years, but more larger resources are still quite costly, a good example and use case
-              is Amazon Cloud Services and the different services they offer.
+    </section>
+
+<!-- Documentation - Whitepaper Section
+    <section id="services" class="bg-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-white">Whitepaper</h2>
+                <p class="text-silver">
+                  <br>
+                  INsert Whitepaper here
+                  <br>
+                </p>
+                <hr class="primary">
+              </div>
+            </div>
+          </div>  
+        </section>
+
+-->
+
+
+    <section class="bg-darkblue" id="disruptionx">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-white">Rapidly Disrupting Markets</h2>
+            <p class="text-silver">
               <br>
-              <br> In addition to a cloud services rates and charges, the average consumer of these services also has to ensure
-              that they have a predictable budget that won’t be subject to hidden charges, or transitional charges when their
-              service providers implement new policies or changes to their fee structure. Planck's Cloud believes in transparency,
-              stability and accessibility and considers this problem, one worth tackling.
-            </font>
-          </p>
-
+              The market for cloud compute is still in it's infancy, and as this industry grows and matures every single industry that uses computers will be affected and some majorly disrupted by the innovations that the cloud compute industry will bring. The Planck's Cloud network wants to allow anyone, anywhere the opportunity to participate and be involved as a compute supplier. And through that, offer the different types of computation as it's own commodity. Which will promote competitive pricing through being network driven and further flourishing disruptive innovation.
+            </p>
+          </div>
         </div>
+      </div>  
+    </section>
+    <div id="rgm" class="bg-darkblue">
+      <img class="max-fluid" src="img/RapidGrowingMarkets.png" alt="">
+    </div>
+    
+    
 
+
+  <section class="bg-white" id="techx">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto text-center">
+          <h2 class="text-black"><b>Breaking through the Cloud
+          </b><br><br></h2>
+        </div>
       </div>
     </div>
-  </section>
-
-  <section class="bg-black" id="solutionx">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">The Solution</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
+        <div class="col-lg-4 mx-auto my-auto">
+          <img src="img/BreakingThrough4.png" class="img-fluid">
+        </div>
+        <div class="col-xs-12 my-auto mx-auto">
+            <div class="service-box">
+              <h5 class="section-heading text-black"><b>Scalable, Decentralized & Secure computing architecture</h5></b>
+              <ul><font size="3">
+                <li>Features P2P based Architecture & Parallelized computing</li>
+                <li>Isolation through virtualization offers ‘Air-tight’ end to end encryption </li>
+                <li>Load balancing on multiple dynamically selected nodes prevents single point of failure</li> </font><br>
+              </ul>
 
-          <p class="text-gold">
-            <font size="4">A Distributed, Decentralized, Cloud Computation platform
-              <br>
-            </font>
-          </p>
-          <div class="col-lg-9 mx-auto">
-            <img class="img-fluid" src="img/Features.jpg" alt="">
+              <h5 class="section-heading text-black"><b>Flexible & Simple to develop for</h5></b>
+              <ul><font size="3">
+                <li>The 'Everything Agnostic' framework through containers as a service enables extreme development flexibility and simplicity</li></font>
+              </ul><br>
+              
+              <h5 class="section-heading text-black"><b>Transparent and Competitive Compute for the market</h5></b>
+              <ul><font size="3">
+                <li>Asks and Bids are visible and fair to everyone</li>
+                <li>Get the most out of the competitive prices reliably worldwide</li>
+                <li>Easy, Optionally automated, Flexible and Predictable to use for every supplier and user</li></font>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-arrows text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Decentralized &amp;
-                <br>Scalable</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">Built from the ground up with P2P architecture, Planck's Cloud will also build in a framework of parallelized
-                computing. Decentralisation and Scalability are fundamental themes in the execution of a true cloud computing
-                platform.
-              </font>
-            </p>
-            <!--
-              <font size="2"> 
-                <ul class="text-mutewhite text-left" style="list-style-type:disc">
-                  <li>Built from the ground up with P2P architecture</li>
-                  <li>Will build a framework of parallelized computing</li>
-                  <li></li>
-                </ul>
-              </font> -->
+          <div class="col-sm-5 my-auto mx-auto">
+            <img class="img-fluid" src="img/Breaking through2.png" alt="">
           </div>
-        </div>
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-cog text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Agnostic &amp;
-                <br>Simple Integration</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">Developers will be free to develop in any language and very simply submit the container to Planck's Cloud which
-                will then be served by someone's spare compute.</font>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-smile-o text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Easy &amp;
-                <br>Automatic</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">Suppliers and Users of Planck's Cloud will be able to ask for and select the prices at which they would like
-                the computing power at. This process will be built with the users experience in mind, and will also allow
-                the users the option of automating what compute &amp; how much the compute should sell for. It Should be
-                as easy as drawing money out the ATM.</font>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-thumbs-o-up text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Free Market
-                <br>Centered</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">By the people, for the people – The Planck's Cloud platform will take into account various computation renting
-                factors (such as - but not limited to: location &amp; intensity), and have it’s prices and markets be completely
-                ruled by the free market, meaning costs will be transparent, predictable, and safe from middlemen intervention.</font>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-group text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Community
-                <br>Guided Behavior</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">Planck's Cloud understands that there may be users of the platform who will be deliberately buying computing
-                power for the sake of misbehaving. The Planck's Cloud platform will exhibit absolute transparency in dealing
-                with misbehaviors, and misbehaviors themselves will be dealt with through on the network by a community centric
-                process.</font>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-shield text-primary sr-icons"></i>
-            <h3>
-              <font size="4">Secure &amp;
-                <br>Stable</font>
-            </h3>
-            <p class="text-mutewhite">
-              <font size="2">Planck's Cloud uses containerization as its core technology, and because of it, all compute take place in these
-                containers and are completely safe and isolated in &amp; from the host system. Additionally measures have
-                been put in place, if the host system goes down, the process will be safely transported to the next host.</font>
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
 
 
-  <section class="bg-primary" id="roadmapx">
+  <section class="bg-darkblue" id="betax">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">The Project Roadmap</h2>
-          <hr class="light">
-          <p class="text-gold">This section will be updated once the whitepaper is released.
-            <br>In the meantime, check out our roadmap on Trello!</p>
+          <h2 class="section-heading text-white">Want to see how this all works?<br><br></h2>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSdAIjTrGCm98vGecLhFGgxN991mR4X9XebrJN0NDKmnP0yn8w/viewform?usp=sf_link">Join the Early Planck's Worker Program</a>
+          <p class="text-silver"><br><font size="4">Sign up for the Early Planck's Worker Program<br><br>Or check out our project progress below on Trello<br>see what we have done, where we are, and where we are going.</p>
 
-          <i class="fa fa-trello fa-3x text-primary sr-contact"></i>
+
+
+          <i class="fa fa-trello fa-2x text-primary sr-contact"></i>
           <p>
-            <a class="text-white" href="https://trello.com/b/NutXeZwS">Trello</a>
+            <a class="text-silver" href="https://trello.com/b/NutXeZwS">Trello</a>
           </p>
         </div>
       </div>
@@ -354,13 +344,13 @@
     </div>
   </section>
 
-  <section class="bg-black" id="timelinesx">
+
+  <section class="bg-white" id="timelinesx">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">Planck's Cloud Timeline</h2>
+          <h2 class="section-heading text-black">Planck's Cloud Timeline</h2>
           <hr class="light">
-          <!--timeline -->
 
           <div class="panel-body">
             <ul class="timeline">
@@ -407,6 +397,20 @@
                 </div>
               </li>
               <li class="timeline-inverted">
+                <div class="timeline-badge warning">
+                  <i class="fa fa-play"></i>
+                </div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Early Planck's Worker Program</h4>
+                  </div>
+                  <p>
+                    <small class="text-muted">
+                      <i class="fa fa-clock-o"></i> TBA </small>
+                  </p>
+                </div>
+              </li>
+              <li>
                 <div class="timeline-badge info">
                   <i class="fa fa-group"></i>
                 </div>
@@ -420,7 +424,7 @@
                   </p>
                 </div>
               </li>
-              <li>
+              <li class="timeline-inverted">
                 <div class="timeline-badge success">
                   <i class="fa fa-bitcoin"></i>
                 </div>
@@ -436,19 +440,16 @@
               </li>
             </ul>
           </div>
-          <!-- /.panel-body -->
-
-
-          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-          <p class="text-gold">
+          <p class="text-black">
             <br>The current timeline does not reflect the business milestones.
             <br>Prospective business milestones will be updated on to this timeline as the whitepaper is released.</p>
 
         </div>
       </div>
     </div>
-  </section>
+  </section> 
 
+<!--
   <section class="bg-primary" id="icox">
     <div class="container">
       <div class="row">
@@ -461,14 +462,15 @@
       </div>
     </div>
   </section>
+-->
 
-  <section class="bg-gold" id="icox">
+  <section class="bg-primary" id="teamx">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading text-white">Planck's Cloud Team</h2>
           <hr class="light">
-          <p class="text-goldbrt">To be updated alongside the release of the whitepaper!</p>
+          <p class="text-silver">To be updated alongside the release of the whitepaper!</p>
 
         </div>
       </div>
@@ -476,7 +478,7 @@
   </section>
 
 
-  <section class="bg-black" id="contact">
+  <section class="bg-white" id="contactx">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
@@ -485,14 +487,9 @@
           <p>Be up to date with the latest news from Planck's Cloud,
             <br>see our progress and even talk to us or the Planck's Cloud community!</p>
 
-          <p class="text-golddrk">
-            <font size="1">The word Planck from Planck's Cloud originates from the physics measurement, Planck is one of the smallest units
-              of measurement - which the Planck's Cloud team thought was appropriate for how detailed Planck's Cloud should
-              be, in measuring and ensuring computing is efficiently used.
-              <br>
-            </font>
-            <p class="text-gold">
-              <font size="1">
+
+            <p class="text-black">
+              <font size="2">
                 Download the logo:
                 <a href="https://plancks.cloud/img/logo.svg">.SVG </a>
                 <a href="https://plancks.cloud/img/logo.png">.PNG </a>
@@ -503,34 +500,51 @@
         </div>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-twitter fa-1x text-gold sr-contact" href="https://twitter.com/PlancksCloud"> Twitter: @PlancksCloud </a>
+        <a class="fa fa-twitter fa-1x text-primary sr-contact" href="https://twitter.com/PlancksCloud"> Twitter: @PlancksCloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-github fa-1x text-gold sr-contact" href="https://github.com/plancks-cloud"> Github: Planck's Cloud </a>
+        <a class="fa fa-github fa-1x text-greyreadable sr-contact" href="https://github.com/plancks-cloud"> Github: Planck's Cloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-reddit fa-1x text-gold sr-contact" href="https://reddit.com/r/PlancksCloud"> Reddit: Planck's Cloud </a>
+        <a class="fa fa-reddit fa-1x text-primary sr-contact" href="https://reddit.com/r/PlancksCloud"> Reddit: Planck's Cloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-slack fa-1x text-gold sr-contact" href="https://join.slack.com/t/planckscloud/shared_invite/enQtMjY1OTg1ODQ1NzYxLWU5MTg5MTZlYTExNTU0ZjU5NDQ0ZmEyYTRhMWM4MjlmYzY0MmJlZGQ0YmM4MTQ3ZWNhOWI0MzRlZDM4NzA2Zjg">
-        Slack: Planck's Cloud </a>
+        <a class="fa fa-facebook fa-1x text-greyreadable sr-contact" href="https://www.facebook.com/Plancks-Cloud-128318264547079/?ref=settings"> Facebook: Planck's Cloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-facebook fa-1x text-gold sr-contact" href="https://www.facebook.com/Plancks-Cloud-128318264547079/?ref=settings"> Facebook: Planck's Cloud </a>
-      </div>
-      <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-youtube fa-1x text-gold sr-contact" href="https://www.youtube.com/channel/UCIglOzVPCoZJVpUH9gMw9uA/featured?disable_polymer=1">
+        <a class="fa fa-youtube fa-1x text-primary sr-contact" href="https://www.youtube.com/channel/UCIglOzVPCoZJVpUH9gMw9uA/featured?disable_polymer=1">
         Youtube: Planck's Cloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-bitcoin fa-1x text-gold sr-contact" href="https://bitcointalk.org/index.php?board=12.0"> Bitcointalk.org: Planck's Cloud </a>
+        <a class="fa fa-bitcoin fa-1x text-greyreadable sr-contact" href="https://bitcointalk.org/index.php?board=12.0"> Bitcointalk.org: Planck's Cloud </a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-volume-up fa-1x text-gold sr-contact" href="https://discordapp.com/invite/kNeTehW"> Discord for Planck's Cloud </a>
+        <a class="fa fa-bookmark fa-1x text-primary sr-contact" href="https://blog.plancks.cloud/">
+        Blog: Planck's Cloud</a>
       </div>
       <div class="col-xs-4 mr-auto text-center">
-        <a class="fa fa-envelope-o fa-1x text-gold sr-contact" href="mailto:info@plancks.cloud"> Info@plancks.cloud</a>
+        <a class="fa fa-envelope-o fa-1x text-greyreadable sr-contact" href="mailto:info@plancks.cloud"> Info@plancks.cloud</a>
       </div>
+
+      <div class=" mr-auto text-center">
+        <p class="text-primary"><br>Come find us in the channels below between 09:00-16:00 GMT +2 !</p>
+      </div>
+      <div class="col-xs-4 mr-auto text-center">
+        <a class="fa fa-volume-up fa-1x text-black sr-contact" href="https://discordapp.com/invite/kNeTehW"> Discord: Planck's Cloud</a>
+      </div>
+      <div class="col-xs-4 mr-auto text-center">
+        <a class="fa fa-slack fa-1x text-black sr-contact" href="https://join.slack.com/t/planckscloud/shared_invite/enQtMjY1OTg1ODQ1NzYxLWU5MTg5MTZlYTExNTU0ZjU5NDQ0ZmEyYTRhMWM4MjlmYzY0MmJlZGQ0YmM4MTQ3ZWNhOWI0MzRlZDM4NzA2Zjg">
+        Slack: Planck's Cloud</a>
+      </div>
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="text-greyreadable">
+            <font size="1"><br>The word Planck from Planck's Cloud originates from the physics measurement, Planck is one of the smallest units
+              of measurement - which the Planck's Cloud team thought was appropriate for how detailed Planck's Cloud should
+              be, in measuring and ensuring computing is efficiently used.
+              <br>
+            </font>
+          </p>
+        </div>
     </div>
   </section>
 

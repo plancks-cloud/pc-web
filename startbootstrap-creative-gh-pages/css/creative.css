@@ -17,18 +17,28 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #926829; }
+  border-color: #295392; }
 
 hr.light {
   border-color: white; }
 
+rgm {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
 a {
-  color: #926829;
+  color: #295392;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
-    color: #926829; }
+    color: #295392; }
 
 h1,
 h2,
@@ -44,7 +54,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #3e3117 !important; }
+  background-color: #171a3e !important; }
 
 .bg-dark {
   color: white;
@@ -56,7 +66,7 @@ p {
 
 .bg-gold {
   color: white;
-  background-color: #926829 !important; }
+  background-color: #295392 !important; }
 
 
 
@@ -100,10 +110,10 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #926829;
+    color: #295392;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #926829; }
+      color: #295392; }
   #mainNav .navbar-toggle {
     font-size: 12px;
     font-weight: 700;
@@ -114,13 +124,13 @@ body {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #926829; }
+    color: #295392; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #926829; }
+      color: #295392; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #eab64f !important;
+      color: #3679a7 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
@@ -144,7 +154,7 @@ body {
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 16px;
-          color: #eab64f; }
+          color: #3679a7; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
             color: #fff; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
@@ -152,7 +162,7 @@ body {
           color: #705227; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #eab64f; } }
+            color: #3679a7; } }
 
 header.masthead {
   position: relative;
@@ -266,7 +276,7 @@ header.masthead {
     margin: 0 auto 20px; }
 
 .text-primary {
-  color: #eab64f !important; }
+  color: #3679a7 !important; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -311,16 +321,16 @@ header.masthead {
 
 .btn-primary {
   color: white;
-  border-color: #926829;
-  background-color: #926829; }
+  border-color: #295392;
+  background-color: #295392; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #e24800;
-    background-color: #eb3812; }
+    border-color: #354f76;
+    background-color: #2b3c55; }
   .btn-primary:hover {
     color: white;
-    border-color: #e13612;
-    background-color: #eb3812; }
+    border-color: #354f76;
+    background-color: #2b3c55; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
@@ -340,10 +350,10 @@ header.masthead {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #926829;
-    background-color: #926829; }
+    border-color: #295392;
+    background-color: #295392; }
   .btn-primary .badge {
-    color: #926829;
+    color: #295392;
     background-color: white; }
 
 .btn {
@@ -369,7 +379,7 @@ header.masthead {
   left: 50%;
   width: 3px;
   margin-left: -1.5px;
-  background-color: #eab64f;
+  background-color: #3679a7;
 }
 .timeline > li {
   position: relative;
