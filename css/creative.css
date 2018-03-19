@@ -71,6 +71,14 @@ p {
   color: rgba(255, 255, 255, 1);
 }
 
+.text-gold {
+  color: rgba(255, 215, 0, 1);
+}
+
+.text-cyan{
+  color: #00FFFF;
+}
+
 section {
   padding: 100px 0; }
 
@@ -188,7 +196,7 @@ header.masthead {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
-    text-align: center; }
+    text-align: left; }
     header.masthead .header-content .header-content-inner h1 {
       font-size: 30px;
       font-weight: 700;
