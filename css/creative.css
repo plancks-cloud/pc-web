@@ -182,7 +182,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/bg111.jpg");
+  background-image: url("../img/bgheader.jpg");
   background-position: center;
 
   background-repeat: no-repeat;
@@ -414,7 +414,7 @@ header.masthead {
 .bg-getstarted{
     color:#fff;
     text-align:center;
-    background:url('../img/bg1.jpg');
+    background:url('../img/bgcloser.jpg');
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
