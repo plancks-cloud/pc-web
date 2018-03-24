@@ -4,19 +4,23 @@
     background: linear-gradient(to bottom, #FFF, #f3f3f3);
     background-size:cover;
     background-position:center;
-    padding-top:100px;
+    padding-top:30px;
     padding-bottom:100px;
 }
 .bg-getstarted{
     color:#fff;
+    height: 87vh;
     text-align:center;
     background:url('../img/bgcloser.jpg');
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top:100px;
+    padding-top:30px;
     padding-bottom:100px;
+}
+.pillar{
+  min-height: 520px;
 }
 .text-shadow{
   -webkit-filter: drop-shadow(5px 5px 5px $gray-darker);
@@ -28,5 +32,5 @@
 }
 
 .box-spacing{
-  padding: 25px;
+  padding: 15px;
 }
