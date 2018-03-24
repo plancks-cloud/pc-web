@@ -6,7 +6,6 @@
   @include transition-all;
   .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
     color: $theme-primary;
     @include sans-serif-font;
     &:focus,
@@ -24,9 +23,9 @@
     > li.nav-item {
        > a.nav-link:focus,
       > a.nav-link {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 700;
-        text-transform: uppercase;
+        margin: 0 10px;
         color: $gray-darker;
         &:hover {
           color: $theme-primary;
@@ -45,7 +44,7 @@
     border-color: fade-out(white, .7);
     background-color: transparent;
     .navbar-brand {
-      color: fade-out(white, .3);
+      color: $theme-primary;
       &:focus,
       &:hover {
         color: white;
@@ -61,6 +60,10 @@
     &.navbar-shrink {
       border-color: fade-out($gray-darker, .95);
       background-color: white;
+
+        // -webkit-box-shadow: 0 8px 6px -6px #999;
+        // -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 3px 5px $gray-light;
       .navbar-brand {
         font-size: 16px;
         color: $theme-primary;
