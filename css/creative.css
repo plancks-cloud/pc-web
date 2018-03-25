@@ -9,7 +9,8 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  color: #00548e; }
 
 hr {
   max-width: 50px;
