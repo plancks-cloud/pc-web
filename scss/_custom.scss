@@ -4,7 +4,7 @@
     background: linear-gradient(to bottom, #FFF, #f3f3f3);
     background-size:cover;
     background-position:center;
-    padding-top:30px;
+    padding-top:50px;
     padding-bottom:100px;
 }
 .bg-getstarted{
@@ -16,11 +16,14 @@
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top:30px;
+    padding-top:100px;
     padding-bottom:100px;
 }
 .pillar{
   min-height: 520px;
+  img{
+    max-width: 250px;
+  }
 }
 .text-shadow{
   -webkit-filter: drop-shadow(5px 5px 5px $gray-darker);
@@ -30,6 +33,8 @@
   -webkit-box-shadow: 0 0 1px 1px $gray;
   box-shadow: 0 0 1px 1px $gray;
 }
+
+
 
 .box-spacing{
   padding: 15px;

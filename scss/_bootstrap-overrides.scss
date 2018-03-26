@@ -7,15 +7,6 @@
   padding-right: 0;
   padding-left: 0;
 }
-
-.btn-default {
-  @include button-variant($gray-darker, white, white);
-}
-
-.btn-primary {
-  @include button-variant(white, $theme-primary, $theme-primary);
-}
-
 .btn {
   font-weight: 700;
   border: 1px solid $theme-primary;
@@ -24,6 +15,16 @@
   border-radius:2px;
   @include sans-serif-font;
 }
+
+.btn-default {
+  @include button-variant($theme-primary, $white, $theme-primary);
+}
+
+.btn-primary {
+  @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+
 
 .btn-xl {
   padding: 15px 30px;

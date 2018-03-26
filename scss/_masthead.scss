@@ -4,8 +4,8 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: left;
-  color: white;
-  background-image: url("../img/bgheader.jpg");
+  color: $white;
+  background-image: url("../img/bgheader.png");
   background-position: center;
   background-attachment: fixed;
   @include background-cover;
