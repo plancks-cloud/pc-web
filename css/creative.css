@@ -303,7 +303,8 @@ header.masthead {
   background: #00548e;
   color: #fefefe;
   border-radius: 2px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  cursor: pointer; }
 
 .btn-default {
   color: #00548e;
