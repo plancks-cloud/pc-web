@@ -146,13 +146,13 @@ body {
       border-color: rgba(255, 255, 255, 0.3);
       background-color: transparent; }
       #mainNav .navbar-brand {
-        color: rgba(0, 60, 99, 0.7); }
+        color: rgba(200, 200, 255, 1  ); }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: #004371; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
 
-        color: rgba(255, 255, 255, 0.7); }
+        color: rgba(200, 200, 255, 1); }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: white; }
@@ -182,11 +182,9 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/bgheader.jpg");
+  background-image: url("../img/container1.png");
   background-position: center;
 
-  background-repeat: no-repeat;
-    background-attachment: fixed;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
