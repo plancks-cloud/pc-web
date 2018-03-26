@@ -52,7 +52,7 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 30px 0; }
+  padding: 50px 0; }
 
 .section-heading {
   margin-top: 0; }
@@ -271,7 +271,7 @@ header.masthead {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px; }
 
 .pillar {
