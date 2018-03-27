@@ -3,7 +3,8 @@
 // Gray and Brand Colors for use across theme
 
 $theme-primary: #00548e;
-
+$gold: #d4ae62;
+$gold-dark:darken($gold,10%) !default;
 $white: #fefefe;
 
 $gray-base: #000 !default;

@@ -18,11 +18,11 @@
 }
 
 .btn-default {
-  @include button-variant($theme-primary, $white, $theme-primary);
+  @include button-variant($gray-darker, $gold, $gold-dark);
 }
 
 .btn-primary {
-  @include button-variant(white, $theme-primary, $theme-primary);
+  @include button-variant($white, $gold, $gold-dark);
 }
 
 
