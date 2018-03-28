@@ -52,9 +52,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out(white, .3);
+      color: $white;
       &:hover {
-        color: $white;
+        color: fade-out($white, .2);
       }
     }
     &.navbar-shrink {

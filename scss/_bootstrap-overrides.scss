@@ -19,6 +19,9 @@
 
 .btn-default {
   @include button-variant($gray-darker, $gold, $gold-dark);
+  &:hover{
+    color:$white!important;
+  }
 }
 
 .btn-primary {

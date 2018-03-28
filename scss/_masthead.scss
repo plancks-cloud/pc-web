@@ -37,13 +37,13 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 50%;
+      top: 35%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       .header-content-inner {
-        max-width: 1000px;
+        max-width: 1100px;
         margin-right: auto;
         margin-left: auto;
         h1 {
