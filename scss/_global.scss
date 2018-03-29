@@ -7,6 +7,7 @@ html {
 
 body {
   @include serif-font;
+  color: $theme-primary;
 }
 
 hr {
@@ -57,7 +58,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-heading {

@@ -3,23 +3,23 @@ header.masthead {
   position: relative;
   width: 100%;
   min-height: auto;
-  text-align: center;
-  color: white;
-  background-image: url('../img/header.jpg');
+  text-align: left;
+  color: $white;
+  background-image: url("../img/bgheader.png");
   background-position: center;
+  background-attachment: fixed;
   @include background-cover;
   .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
-    text-align: center;
+    text-align: left;
     .header-content-inner {
       h1 {
         font-size: 30px;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 0;
-        text-transform: uppercase;
       }
       hr {
         margin: 30px auto;
@@ -37,13 +37,13 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 50%;
+      top: 35%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       .header-content-inner {
-        max-width: 1000px;
+        max-width: 1100px;
         margin-right: auto;
         margin-left: auto;
         h1 {

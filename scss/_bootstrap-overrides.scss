@@ -7,22 +7,28 @@
   padding-right: 0;
   padding-left: 0;
 }
+.btn {
+  font-weight: 700;
+  border: 1px solid $theme-primary;
+  background: $theme-primary;
+  color: $white;
+  border-radius:2px;
+  @include sans-serif-font;
+  cursor: pointer;
+}
 
 .btn-default {
-  @include button-variant($gray-darker, white, white);
+  @include button-variant($gray-darker, $gold, $gold-dark);
+  &:hover{
+    color:$white!important;
+  }
 }
 
 .btn-primary {
-  @include button-variant(white, $theme-primary, $theme-primary);
+  @include button-variant($white, $gold, $gold-dark);
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
-  @include sans-serif-font;
-}
+
 
 .btn-xl {
   padding: 15px 30px;
