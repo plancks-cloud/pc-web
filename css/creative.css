@@ -38,7 +38,7 @@ h6 {
 
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   margin-bottom: 20px; }
 
 .bg-primary {
@@ -277,7 +277,7 @@ header.masthead {
   color: #fff;
   height: 87vh;
   text-align: center;
-  background: url("../img/bgcloser.jpg");
+  background: url("../img/bgbot.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
